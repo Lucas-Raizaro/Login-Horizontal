@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-image: linear-gradient(to left, #E1E1E2, #97ABEE);
+}
+
+div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  width: 1000px;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 35px;
+  box-shadow: 4px 4px 15px;
+}
+
+section{
+  display: inline-block;
+}
+
+.secao1{
+  margin-left: -166px;
+  margin-top: 100px;
+  margin-right: 350px;
+}
+
+.secao1 h1{
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.secao1 p{
+  margin-bottom: 20px;
+}
+
+#email{
+  background-color: rgba(211, 211, 211, 0.715);
+  width: 500px;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#senha{
+  background-color: rgba(211, 211, 211, 0.715);
+  width: 500px;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+#signin{
+  background-color: #512DA8;
+  color: white;
+  width: 150px;
+  padding: 5px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.secao2{
+  display: block;
+  background-color: #7158AD;
+  width: 490px;
+  height: 510px;
+  border-radius: 120px 35px 35px 120px;
+  margin-top: -406px;
+  margin-left: 540px;
+}
+
+.secao2 h1{
+  padding-top: 150px;
+  color: white;
+  font-size: 2em;
+}
+
+#frase{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: auto;
+  color: white;
+  width: 420px;
+}
+
+#signup{
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  width: 110px;
+  margin-top: 30px;
+  padding: 4px;
+  border-radius: 9px;
+  margin-left: 185px;
+}
